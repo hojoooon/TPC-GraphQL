@@ -1,0 +1,29 @@
+{
+  "name": "test_graphql",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "repository": "https://github.com/hojoooon/TPC-GraphQL.git",
+  "scripts": {
+    "start": "node app.js",
+    "dev": "nodemon app.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@babel/core": "^7.13.8",
+    "@babel/node": "^7.13.0",
+    "@babel/preset-env": "^7.13.9",
+    "apollo-server": "^2.21.0",
+    "apollo-server-express": "^2.21.0",
+    "apollo-server-koa": "^2.21.0",
+    "babel": "^6.23.0",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "graphql": "^15.5.0",
+    "koa": "^2.13.1",
+    "koa-bodyparser": "^4.3.0",
+    "mongodb": "^3.6.3",
+    "mongoose": "^5.11.15"
+  }
+}
