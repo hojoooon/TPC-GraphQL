@@ -22,6 +22,7 @@ const typeDefs = gql`
     updatedMonth: String
     updatedAt: String
     publisher: String
+    type: String
     detail: [Detail]
   }
   type Detail {

@@ -95,6 +95,7 @@ async function updateData(cookieData, pubData){
       k.updatedMonth = YYYYMM;
       k.updatedAt = detailTime
       k.publisher = pubData.publisherData[j].publisher
+      k.type = pubData.publisherData[j].type
       l.id = 1
       l.domain = cookieData.domain
       l.count = 0
